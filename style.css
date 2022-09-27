@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    /* Alternative box-model */
+    box-sizing: border-box;
+    /* Reset padding and margin on all elment */
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body { 
+    font-family: 'poppins', sans-serif;
+    line-height: 1.55;
+    background-image: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)), url('images/interior.jpg');
+    width: 100%;
+    background-position: center;
+    
+}
+
+header {
+    margin-bottom: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 3rem;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
+
+a .btn {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    background-color: rgba(3, 3, 3, 0.877);
+    border-radius: 100px;
+    padding: .8rem 1.5rem;
+}
+
+.content h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.content, section {
+    width: 100%;
+    text-align: center;
+}
+
+.content p {
+    font-weight: 600;
+    color: white;
+
+}
+
+a #subscribe {
+    margin-top: 30px;
+}
+a #subscribe:hover {
+    color:black;
+    background-color: white;
+}
+
+a #search:hover {
+    color: black;
+    background-color: white;
+
+}
+
+footer {
+    padding: 23rem 0;
+}
+
+footer p {
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
